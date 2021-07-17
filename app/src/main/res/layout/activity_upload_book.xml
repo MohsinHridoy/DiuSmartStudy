@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".uploadbook.UploadBookActivity">
+
+
+    <ImageView
+        android:id="@+id/ivSearch"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:src="@drawable/searchicon" />
+
+    <ImageView
+        android:id="@+id/ivFile"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginTop="121dp"
+        android:src="@drawable/file" />
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:src="@drawable/close" />
+
+
+    <EditText
+        android:id="@+id/etBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your BookName"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etBookName"
+
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="Upload"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_50"
+        android:background="@drawable/edittxt_background_one"
+
+        />
+
+
+
+</RelativeLayout>

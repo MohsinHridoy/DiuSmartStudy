@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "457512664453",
+    "project_id": "versty-project",
+    "storage_bucket": "versty-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457512664453:android:f656ffc4095768f5d298ec",
+        "android_client_info": {
+          "package_name": "com.example.vrstyproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457512664453-7otopgin537livtih4rbn3494k8a9o0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vrstyproject",
+            "certificate_hash": "8ca931b658eae38d7cd02c9357d1ea491e36da5a"
+          }
+        },
+        {
+          "client_id": "457512664453-uip1r0p4ko819fbgrpqjg9pm1i83ec04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOJ_3EhWkVEZU_h-XIyjT4C_ywjZg7C5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457512664453-uip1r0p4ko819fbgrpqjg9pm1i83ec04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

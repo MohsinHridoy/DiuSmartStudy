@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.LoginActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:lottie_rawRes="@raw/cat"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Login Here"
+        android:fontFamily="@font/poppinslight"
+        android:textSize="@dimen/dp_30"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittxt_background_one"
+        android:hint="Email"
+        android:fontFamily="@font/poppinslight"
+
+        android:textColorHint="#B0B1B1"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="@dimen/dp_20"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittxt_background_one"
+        android:hint="Password"
+        android:fontFamily="@font/poppinslight"
+
+        android:textColorHint="#FFB0B1B1"
+
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+
+
+        />
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:neomorph_view_type="rectangular"
+        app:neomorph_shadow_type="inner"
+        app:neomorph_shadow_visible="true"
+        app:neomorph_elevation="5dp"
+        app:neomorph_corner_radius="9dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="23dp"
+        app:neomorph_background_color="#07A87B"
+        app:neomorph_shadow_color="@color/neomorph_shadow_color"
+        app:neomorph_highlight_color="@color/neomorph_highlight_color">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/shape_rectangle"
+            app:backgroundTint="@null"
+            android:text="@string/next"
+            android:textColor="#ffff"
+            android:padding="@dimen/dp_20"
+            android:fontFamily="@font/poppinslight"
+
+
+
+
+            />
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dont have account?"
+        android:fontFamily="@font/poppinslight"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Sign up Quick"
+        android:fontFamily="@font/poppinsbold"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>
